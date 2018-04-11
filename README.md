@@ -9,6 +9,7 @@ PakingFast - Independent study  of  Android App for University. 泊車-Fast 大�
 
 以下為簡短介紹：
 分為兩個部分
+
 part-A：VB視窗程式端搭配webcam 模擬停車場內部停車狀況並上傳更新至資料庫
 part-B：PHP網頁與SQL資料庫、IIS伺服器、Android App
 
