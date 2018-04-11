@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:gravity="center_vertical|center" >
+
+    <ImageButton
+        android:id="@+id/search"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/auto_btn_set" />
+
+    <TextView
+        android:id="@+id/now_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/search"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="目前位址："
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/now_addr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="讀取中..."
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/parking_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="您尚未選擇停車場"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        class="com.google.android.gms.maps.MapFragment" />
+
+</RelativeLayout>
