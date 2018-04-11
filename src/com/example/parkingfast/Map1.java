@@ -129,7 +129,7 @@ public class Map1 extends FragmentActivity
 	public static int strlen;
 	public static boolean sendflag = false;
 	private int emptyplace_num = 0;
-	private String url = "http://140.125.32.238/print.php";
+	private String url = "http://print.php"; //請填入欲讀取的網頁內容
 
 	public void onCreate(Bundle savedInstanceState)
 	{

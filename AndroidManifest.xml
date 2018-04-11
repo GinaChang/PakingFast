@@ -71,7 +71,7 @@
         
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyAT-0Ue0Ew8XD2w5oab_33ooKDHHSvUdmY" />
+            android:value="請填入申請的APIKey" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
